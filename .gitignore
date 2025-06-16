@@ -35,3 +35,37 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.fleet/
+*.swp
+*.swo
+
+# iOS specific
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+
+# Android specific
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/captures/
+
+# Testing
+coverage/
+.jest/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
